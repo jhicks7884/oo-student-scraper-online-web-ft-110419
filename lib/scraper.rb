@@ -36,5 +36,5 @@ class Scraper
     student[:bio] = profile_page.css(bio_css).text if profile_page.css(bio_css)
     student
   end
-
+end
 end
