@@ -23,8 +23,4 @@ class Student
     end
     self
   end
-
-  def self.all
-    @@all
-  end
-end
+  
