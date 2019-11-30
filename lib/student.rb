@@ -5,7 +5,6 @@ class Student
   student_hash.each do |attribute, value|
      self.send("#{attribute}=", value)
    end
-
    @@all << self
  end
 
