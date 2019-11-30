@@ -17,4 +17,3 @@ class Student
     end
     self
   end
-  
